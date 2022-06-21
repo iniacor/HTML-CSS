@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+table {
+  margin: 16px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+/* у tbody ищем первую строку и берем rf;le. ячейку*/
+tbody > tr:first-child td {
+  border: none;
+}
+/* у tbody ищем последнюю строку и берем rf;le. ячейку*/
+tbody > tr:last-child td {
+  border: none;
+}
+
+/*у каждой строки берем первую ячейку*/
+tr > td:first-child {
+  border: none;
+}
+/*у каждой строки берем последнюю ячейку*/
+tr > td:last-child {
+  border: none;
+}
+
+/*у каждой четной строки кроме последней берем каджый нечетную ячейку кроме первой*/
+tbody > tr:nth-child(2n):not(:last-child) td:nth-child(odd):not(:first-child) {
+  background-color: #000;
+}
+
+/*у каждой нечетной строки кроме первой берем каджую четную ячейку кроме последней*/
+tbody
+  > tr:nth-child(odd):not(:first-child)
+  td:nth-child(even):not(:last-child) {
+  background-color: #000;
+}
