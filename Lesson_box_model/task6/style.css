@@ -1,0 +1,21 @@
+.blue {
+  padding: 50px;
+  margin: 50px;
+  background-color: blue;
+  border: 2px solid;
+}
+.yellow {
+  padding: 50px;
+  border: 2px solid;
+  background-color: yellow;
+}
+.green {
+  padding: 50px;
+  border: 2px solid;
+  background-color: green;
+}
+.pink {
+  padding: 50px;
+  border: 2px solid;
+  background-color: pink;
+}

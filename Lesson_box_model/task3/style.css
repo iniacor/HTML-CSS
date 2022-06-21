@@ -1,0 +1,38 @@
+.rectangle {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  background-color: forestgreen;
+  border-radius: 16px;
+}
+
+.oval {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 50px;
+  background-color: darkmagenta;
+  border-radius: 50%;
+}
+
+.circle {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.triangle {
+  box-sizing: border-box;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 50px solid transparent;
+  border-top: 50px solid brown;
+}
