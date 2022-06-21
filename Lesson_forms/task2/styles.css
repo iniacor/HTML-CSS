@@ -1,0 +1,9 @@
+body {
+  box-sizing: border-box;
+}
+.some-div {
+  margin: 16px;
+}
+.choose-gender {
+  margin: 16px;
+}
